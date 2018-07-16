@@ -21,6 +21,6 @@ function iLoveTheBeatles(aNumber){
   var i = 0;
   do {
     iHeartBeatles[i] = "I love the Beatles!"
-  } while (i++ <= aNumber && aNumber < 15)
+  } while (++i <= aNumber && aNumber < 15)
   return iHeartBeatles;
 }
